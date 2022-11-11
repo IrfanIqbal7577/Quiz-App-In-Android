@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quizappproj">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizAppProj">
+        <activity
+            android:name=".splash"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".Registration"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Resultr"
+            android:exported="true" />
+        <activity
+            android:name=".Riddle"
+            android:exported="true" />
+        <activity
+            android:name=".Result1"
+            android:exported="true" />
+        <activity
+            android:name=".General_knw"
+            android:exported="true" />
+        <activity
+            android:name=".categories"
+            android:exported="true" />
+        <activity
+            android:name=".Result"
+            android:exported="true" />
+        <activity
+            android:name=".colors"
+            android:exported="true" />
+        <activity
+            android:name=".Questions"
+            android:exported="true" />
+        <activity
+            android:name=".Developers"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
+    </application>
+
+</manifest>

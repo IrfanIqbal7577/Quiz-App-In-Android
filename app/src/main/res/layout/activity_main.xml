@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#f5deb3"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgr6"
+        android:layout_width="wrap_content"
+        android:layout_height="195dp"
+        android:src="@drawable/r6"></ImageView>
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="@id/imgr6"
+        android:layout_marginTop="256dp"
+        android:layout_marginRight="60dp"
+        android:text="QUIZUP"
+        android:textAlignment="center"
+        android:textColor="#cd853f"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:layout_above="@+id/btnabout"
+        android:layout_marginLeft="40dp"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#e9967a"
+        android:text="Start"
+        android:textSize="30dp"></Button>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:text="AboutUs"
+        android:id="@+id/btnabout"
+        android:textSize="30dp"
+        android:layout_marginBottom="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnstart"
+        android:layout_alignStart="@+id/btnstart"
+        android:backgroundTint="#e9967a"
+         ></Button>
+
+
+</RelativeLayout>
